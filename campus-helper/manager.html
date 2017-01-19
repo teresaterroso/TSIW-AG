@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- -->
+
+    <title>campus-helper - manager</title>
+
+    <!-- vendor css -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/sweetalert.min.css">
+
+    <!-- custom css --> 
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation"><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">campus helper</h3>
+        </div>
+
+        <div class="jumbotron manager">
+            <h1>manager</h1>
+            <p class="lead">gerir garagem do campus</p>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-md-6">
+                <h3>estatísticas</h3>
+                <div class="col-md-12 blue-grey">
+                    <h4>carros na garagem: <span id="cars"></span></h4>
+                    <h4>último carro a entrar: <span id="lastCarInside">nenhum</span></h4>
+                    <h4>último carro a sair: <span id="lastCarOutside">nenhum</span></h4>
+                    <h4></h4>
+                </div>
+
+                <div class='row'><div class="span12"></div></div>
+
+                <h3>sobre o canal thingspeak</h3>
+                <div class="col-md-12 blue-grey">
+                    <h4>channel name: <span id="channelName"></span></h4>
+                    <h4>channel ID: <span id="channelId"></span></h4>
+                    <h4>created at: <span id="channelCreated"></span></h4>
+                    <h4>last entry ID: <span id="channelLastEntryId"></span></h4>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <h3>operações</h3>
+                <div class="col-md-12 blue-grey">
+                    <h4>adicionar carro <button type="button" id="enterGarage" class="btn btn-secondary">adicionar carro</button></h4>                    
+
+                    <h4>retirar carro <button type="button" id="leaveGarage" class="btn btn-secondary">retirar carro</button></h4>
+
+                    <h4>limpar garagem <button type="button" id="clearGarage" class="btn btn-danger">limpar garagem</button></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-md-12 text-center chart">
+                <iframe id="garageChartEmbed" width="100%" height="250" style="border: 1px solid #cccccc"></iframe>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer text-right">
+            <p>&copy; 2016 Guilherme Martins &amp; João Barrias</p>
+        </footer>
+
+    </div> <!-- /container -->
+
+    <!-- vendor js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/sweetalert.min.js"></script>
+    <script src="js/vendor/codebird.js"></script>
+
+    <!-- custom js -->
+    <script src="js/apikeys.js"></script> <!-- api keys --> 
+    <script src="js/requests.js"></script> <!-- thingspeak api request functions -->
+    <script src="js/app.js"></script> <!-- everything else -->
+</body>
+</html>

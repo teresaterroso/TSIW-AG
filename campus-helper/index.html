@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- -->
+
+    <title>campus-helper - home</title>
+
+    <!-- vendor css -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/sweetalert.min.css">
+
+    <!-- custom css --> 
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation"><a href="manager.html">Manager</a></li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">campus helper</h3>
+        </div>
+
+        <div class="jumbotron home">
+            <h1>bem vindo</h1>
+            <p class="lead">descubra aqui informação útil sobre o campus</p>
+        </div>
+
+        <div class="row marketing text-center">
+            <div class="col-md-6">
+                <div class="col-md-12 blue-grey">
+                    <h3>quantos carros estão na garagem? <span id="cars"></span></h3>
+                    <p><a id="enterGarage">entrar na garagem</a> | <a id="leaveGarage">sair da garagem</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="col-md-12 blue-grey">
+                    <h3>como está o tempo no campus?</h3>
+                    <p><span id="current-weather"></span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row marketing text-center">
+            <div class="col-md-12">
+                <div class="col-md-12 blue-grey">
+                    <h3>últimos tweets</h3>
+                    <div id="tweets" class="text-left"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer text-right">
+            <p>&copy; 2016 Guilherme Martins &amp; João Barrias</p>
+        </footer>
+
+    </div> <!-- /container -->
+
+    <!-- vendor js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/sweetalert.min.js"></script>
+    <script src="js/vendor/codebird.js"></script>
+
+    <!-- custom js -->
+    <script src="js/apikeys.js"></script> <!-- api keys --> 
+    <script src="js/weather.js"></script> <!-- current weather -->
+    <script src="js/twitter.js"></script> <!-- current weather -->
+    <script src="js/requests.js"></script> <!-- thingspeak api request functions -->
+    <script src="js/app.js"></script> <!-- everything else -->
+</body>
+</html>

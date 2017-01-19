@@ -1,0 +1,157 @@
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Jumbotron */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+.marketing p + h4 {
+    margin-top: 10px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+/* ---------- */
+/* custom css */
+/* ---------- */
+
+.blue-grey {
+    background-color: #343d46;
+    color: white;
+    border-radius: 6px;
+}
+
+.nav a {
+    color: #777;
+}
+
+.nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-pills > li.active > a {
+    background-color: #65737e !important;
+}
+
+.jumbotron.home {
+    background: linear-gradient(
+                    rgba(52,61,70,.5), 
+                    rgba(52,61,70,.5)
+                    ), url('../assets/campus3.jpg');
+    background-size: cover;
+    
+    color: white;
+    text-shadow: #444 0 1px 1px;
+}
+
+.jumbotron.manager {
+    background: linear-gradient(
+                    rgba(52,61,70,.5), 
+                    rgba(52,61,70,.5)
+                    ), url('../assets/campus4.jpg');
+    background-size: cover;
+    
+    color: white;
+    text-shadow: #444 0 1px 1px;
+}
+
+.btn-secondary, .btn-secondary:focus {
+    color: white;
+    background-color: #65737e; 
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: #4f5b66;
+}
+
+span {
+    color: #c0c5ce;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #c0c5ce;
+}
+
+a:visited {
+    color: #a7adba;
+}
+
+.tweet {
+    margin-bottom: 10px;
+}
+
+
+/* sweetalert button fixup */ 
+button.confirm {
+    background-color: #343d46 !important;
+}
