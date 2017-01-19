@@ -1,0 +1,207 @@
+/*Alterar cores padrão do bootstrap - correção de bug*/
+
+.navbar-transparent .navbar-nav>li>a:hover,
+.navbar-transparent .navbar-nav>li>a:focus {
+    background-color: transparent;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+}
+
+/*body do index*/
+
+#body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #fbe000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#body2 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #fbe000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div_tabela,
+#div_botoes {
+    max-width: 50%;
+}
+
+/*botões do index e index2*/
+
+#btn_jogar,
+#btn_pontuacao,
+#btn_creditos,
+#btn_menu,
+#btn_jogar_2 {
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+    background-color: #1e5ca2;
+    border-color: transparent;
+}
+
+#btn_jogar:hover,
+#btn_pontuacao:hover,
+#btn_creditos:hover,
+#btn_menu:hover,
+#btn_jogar_2:hover {
+    background-color: #266dbe;
+}
+
+#btn_jogar:active,
+#btn_pontuacao:active,
+#btn_creditos:active,
+#btn_menu:active,
+#btn_jogar_2:active {
+    background-color: #194f8c;
+}
+
+/*tabela de pontuações*/
+
+.table,
+.table th {
+    text-align: center;
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+    background-color: #1e5ca2;
+}
+
+/*label do index2*/
+
+.label {
+    color: #1e5ca2;
+    font-family: Agency FB;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/*select/input do index2*/
+
+#selectModo,
+#nomeJogador,
+#selectBoneco,
+#selectDificuldade {
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+    background-color: #1e5ca2;
+    border-color: transparent;
+}
+
+.bootstrap-select.btn-group .btn .filter-option {
+    text-align: right
+}
+
+select {
+    text-align-last: center;
+}
+
+#play {
+    color: #1e5ca2;
+    font-family: Agency FB;
+    font-size: 25px;
+    font-weight: bold;
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    border-color: transparent;
+}
+
+/*posiciona o canvas principal e o canvas secundário no html*/
+
+.zoom {
+    zoom: 67%;
+}
+
+/*canvas principal*/
+
+#myCanvas {
+    visibility: collapse;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1500px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    bottom: 1;
+    left: 0;
+    right: 0;
+}
+
+/*canvas secundário*/
+
+#myCanvas2 {
+    visibility: collapse;
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*contador de tempo do index2*/
+
+#contador {
+    color: red;
+    font-size: 20px;
+    font-family: Agency FB;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+}
+
+/*texto de ajuda do index2*/
+
+#ajuda {
+    visibility: hidden;
+    color: red;
+    font-size: 20px;
+    font-family: Agency FB;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+}
+
+/*font agency_fb*/
+
+@font-face {
+    font-family: Agency FB;
+    src: url('../fonts/Agency_FB/Agency_FB.ttf');
+}
+
+@font-face {
+    font-family: Agency FB;
+    font-weight: bold;
+    src: url('../fonts/Agency_FB/Agency_FB_Bold.ttf');
+}

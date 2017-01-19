@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hit It</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icon/icon.png">
+    <!--jquery-->
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<!--sweetalert-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--game css/js-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="script/game.js"></script>
+</head>
+
+<body id="body2">
+    <div class="container">
+        <form>
+            <!--form-->
+            <div id="div_form" class="form-group text-center">
+                </br></br></br></br></br></br></br>
+                <!--nome do jogador-->
+                <label for="nomeJogador"><span class="label label-default">Nome do jogador:</span></label>
+                </br></br>
+                <input id="nomeJogador" type="text" class="form-control center-block" autofocus>
+                </br>
+                <!--modo de jogo-->
+                <label for="selectModo"><span class="label label-default">Modo de jogo:</span></label>
+                </br></br>
+                <select id="selectModo" class="form-control">
+                    <option value="1">Números pares</option>
+                    <option value="2">Números ímpares</option>
+                    <option value="3">Números crescentes</option>
+                    <option value="4">Números decrescentes</option>
+                </select>
+                </br>
+                <!--boneco do jogo-->
+                <label for="selectBoneco"><span class="label label-default">Personagem:</span></label>
+                </br></br>
+                <select id="selectBoneco" class="form-control center-block">
+                    <option value="darth_vader">Darth Vader</option>
+                    <option value="donald">Donald</option>
+                    <option value="elsa">Elsa</option>
+                    <option value="minnie">Minnie</option>
+                    <option value="superman">Superman</option>
+                </select>
+                </br>
+                <!--dificuldade do jogo-->
+                <label for="selectDificuldade"><span class="label label-default">Dificuldade:</span></label>
+                </br></br>
+                <select id="selectDificuldade" class="form-control center-block">
+                    <option value="5">Fácil</option>
+                    <option value="3">Médio</option>
+                    <option value="2">Difícil</option>
+                    <option value="1">Hardcore</option>
+                    <option value="1">Extreme Hardcore</option>
+                </select>
+            </div>
+            <!--botão jogar-->
+            <button id="btn_jogar_2" type="button" class="btn center-block">JOGAR</button>
+        </form>
+        </br>
+    </div>
+    <!--canvas principal-->
+    <canvas id="myCanvas" class="zoom" width="1500" height="800">
+        Your browser does not support HTML5 Canvas.
+    </canvas>
+    <!--canvas secundário-->
+    <canvas id="myCanvas2" class="zoom" width="1500" height="115">
+        Your browser does not support HTML5 Canvas.
+    </canvas>
+    <!--contador de tempo do jogo-->
+    <h1 id="contador"></h1>
+    <!--info de ajuda-->
+    <h1 id="ajuda">?</h1>
+</body>
+
+</html>

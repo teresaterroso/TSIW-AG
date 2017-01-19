@@ -1,0 +1,36 @@
+//info//
+
+//library
+sweetalert: http://t4t5.github.io/sweetalert/
+jquery: https://jquery.com/
+bootstrap: http://getbootstrap.com/
+
+//superman
+boneco_front: http://vignette1.wikia.nocookie.net/lego/images/6/69/Superman_CGI.png/revision/latest?cb=20120125211722
+boneco_back: http://vignette1.wikia.nocookie.net/lego/images/7/76/Superman_back.jpg/revision/latest?cb=20111205175639
+background: http://img04.deviantart.net/4efa/i/2015/223/9/3/metropolis_background_9_by_snowofdahila-d959b5h.png
+
+//donald
+donald_front: http://thenerdrecites.com/wp-content/uploads/2016/04/lego-disney-minifigures-donald-daisy.jpg
+donald_back: https://farm2.staticflickr.com/1543/26648118865_a98d540a85.jpg
+background: http://cdn.wallpapersafari.com/66/15/8UT3oS.jpg
+
+//minnie
+minnie_front: https://img.bricklink.com/ItemImage/ML/dis011.png
+minnie_back: http://jaysbrickblog.com/wp-content/uploads/2016/04/LEGO-Disney-Minifigures-Minnie-Mouse-Back-View-1024x684.jpg
+background: https://s-media-cache-ak0.pinimg.com/originals/00/f8/92/00f892fe2763b1abb2381aad205ba420.jpg
+
+//darth_vader
+darth_vader_front and darth_vader_back: http://gadgetsin.com/uploads/2012/06/lego_star_wars_darth_vader_minifigure_desk_lamp_2.jpg?x78359
+background: http://wallpapercave.com/wp/1I3yb5l.jpg
+
+//elsa
+elsa_front: http://vignette3.wikia.nocookie.net/lego/images/2/20/LEGOElsa.png/revision/latest?cb=20151120015052
+elsa_back: http://www.thetoyshoppe.com/images/productslarge/54156b.jpg
+frozen_background: https://images5.alphacoders.com/521/thumb-1920-521490.jpg
+
+//números
+borda_retangulos: https://www.colourbox.com/vector/plastic-school-board-for-writing-marker-and-chalk-vector-illustration-vector-7312147
+
+//menu
+background: https://s-media-cache-ak0.pinimg.com/originals/b2/d4/d4/b2d4d46b21bcf0ddb9a92ed4d2464d7d.jpg
