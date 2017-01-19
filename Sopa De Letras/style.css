@@ -1,0 +1,70 @@
+body{
+
+
+
+background: #56ab2f; /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to left, #56ab2f , #a8e063); /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to left, #56ab2f , #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
+}
+
+#myCanvas2{   
+    padding-left: 50px;
+    }
+
+/*#myCanvas3{   
+    background-image: url("img/ceu.jpg"); 
+    
+    }*/
+    #creditos{
+        
+        font-family:"Arial Black", Gadget, sans-serif;
+        text-align: center;
+        color: snow;
+    }
+    
+.myButton {
+	-moz-box-shadow: -1px 14px 42px -7px #2f9114;
+	-webkit-box-shadow: -1px 14px 42px -7px #2f9114;
+	box-shadow: -1px 14px 42px -7px #2f9114;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #2b7a00));
+	background:-moz-linear-gradient(top, #44c767 5%, #2b7a00 100%);
+	background:-webkit-linear-gradient(top, #44c767 5%, #2b7a00 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #2b7a00 100%);
+	background:-ms-linear-gradient(top, #44c767 5%, #2b7a00 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #2b7a00 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#2b7a00',GradientType=0);
+	background-color:#44c767;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:28px;
+	font-weight:bold;
+	padding:22px 56px;
+	text-decoration:none;
+	text-shadow:0px 0px 2px #79c26e;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2b7a00), color-stop(1, #44c767));
+	background:-moz-linear-gradient(top, #2b7a00 5%, #44c767 100%);
+	background:-webkit-linear-gradient(top, #2b7a00 5%, #44c767 100%);
+	background:-o-linear-gradient(top, #2b7a00 5%, #44c767 100%);
+	background:-ms-linear-gradient(top, #2b7a00 5%, #44c767 100%);
+	background:linear-gradient(to bottom, #2b7a00 5%, #44c767 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b7a00', endColorstr='#44c767',GradientType=0);
+	background-color:#2b7a00;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#logo{
+    padding-top: 55px;
+display: block;
+    margin: auto;
+    width: 60%;
+}
